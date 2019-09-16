@@ -3,7 +3,7 @@ import os
 import csv
 
 #Define output file and create variables for the analyzed data
-resultsFile = r"C:\Users\klsom\Documents\GitHub\Python\PyPoll\Election_Results.txt"
+resultsFile = "Election_Results.txt"
 from decimal import Decimal
 ballot = []
 summaryVotes = []
