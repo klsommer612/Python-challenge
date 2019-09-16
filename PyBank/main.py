@@ -8,9 +8,8 @@ from decimal import Decimal
 profitLoss = []
 summaryProfitLoss = {}
 
-####Why did I have to use this version?????
 #Define location and read in CSV file
-budgetFile = os.path.join(r"C:\Users\klsom\Documents\GitHub\Python\PyBank\Resources\budget_data.csv")
+budgetFile = os.path.join("Resources","budget_data.csv")
 with open(budgetFile) as csvfile:
     csvReader = csv.reader(csvfile, delimiter=",")
     #Skip header row
