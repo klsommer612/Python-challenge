@@ -3,7 +3,7 @@ import os
 import csv
 
 #Define output file and create variables for the analyzed data
-resultsFile = r"C:\Users\klsom\Documents\GitHub\Python\PyBank\Financial_Analysis.txt"
+resultsFile = "Financial_Analysis.txt"
 from decimal import Decimal
 profitLoss = []
 summaryProfitLoss = {}
