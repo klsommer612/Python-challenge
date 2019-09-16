@@ -8,9 +8,8 @@ from decimal import Decimal
 ballot = []
 summaryVotes = []
 
-##Why did I have to use this version?
 #Define location and read in CSV file
-electionFile = os.path.join(r"C:\Users\klsom\Documents\GitHub\Python\PyPoll\Resources\election_data.csv")
+electionFile = os.path.join("Resources","budget_data.csv")
 with open(electionFile,newline="") as csvfile:
     csvReader = csv.reader(csvfile)
     #Skip the header
